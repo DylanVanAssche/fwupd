@@ -960,6 +960,13 @@ LIBFWUPDPLUGIN_1.7.3 {
   global:
     fu_archive_firmware_get_type;
     fu_archive_firmware_new;
+    fu_block_device_get_filename;
+    fu_block_device_get_label;
+    fu_block_device_get_type;
+    fu_block_device_get_uuid;
+    fu_block_device_set_filename;
+    fu_block_device_set_label;
+    fu_block_device_set_uuid;
     fu_cfi_device_get_page_size;
     fu_cfi_device_get_sector_size;
     fu_cfi_device_set_page_size;
