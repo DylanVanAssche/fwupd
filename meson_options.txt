@@ -21,6 +21,7 @@ option('plugin_acpi_phat', type : 'feature', description : 'ACPI PHAT support', 
 option('plugin_bcm57xx', type : 'feature', description : 'BCM57xx support', deprecated: {'true': 'enabled', 'false': 'disabled'})
 option('plugin_cfu', type : 'feature', description : 'CFU support', deprecated: {'true': 'enabled', 'false': 'disabled'})
 option('plugin_cpu', type : 'feature', description : 'CPU support', deprecated: {'true': 'enabled', 'false': 'disabled'})
+option('plugin_dd', type : 'feature', description : 'DD plugin', deprecated: {'true': 'enabled', 'false': 'disabled'})
 option('plugin_dell', type : 'feature', description : 'Dell-specific support', deprecated: {'true': 'enabled', 'false': 'disabled'})
 option('plugin_dummy', type : 'boolean', value : false, description : 'enable the dummy device')
 option('plugin_emmc', type : 'feature', description : 'eMMC support', deprecated: {'true': 'enabled', 'false': 'disabled'})
