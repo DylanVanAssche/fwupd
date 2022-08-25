@@ -1,0 +1,8 @@
+[BLOCK]
+Plugin = dd
+
+# SHIFT6mq ABL
+[DRIVE\bd6928a1-4ce0-a038-4f3a-1495e3eddffb_E478-FA50&LABEL=abl_a&SLOT=_a]
+Flags = updatable,signed-payload
+DdVendor = SHIFTPHONES
+DdVendorId = eco.shift
